@@ -1,0 +1,12 @@
+USAGE
+
+Build the source, which will generate a .net assembly named ProxyLib. 
+Put this binary and Proxy.txt file near the .net application that you want
+to communicate over http proxy. Edit your application's app.config file adding 
+the following settings:
+
+<system.net>
+    <defaultProxy enabled="true" useDefaultCredentials="false">
+      <module type = "ProxyLib.BSProxy, ProxyLib" />
+    </defaultProxy>
+ </system.net>
