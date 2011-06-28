@@ -1,0 +1,3 @@
+﻿http://proxyURL:port
+proxyUsername
+proxyPassword
