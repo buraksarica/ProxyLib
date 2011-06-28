@@ -10,3 +10,6 @@ the following settings:
       <module type = "ProxyLib.BSProxy, ProxyLib" />
     </defaultProxy>
  </system.net>
+ 
+ Finally edit the Proxy.txt file with proper information. Your application should 
+ use your proxy settings listed in Proxy.txt
